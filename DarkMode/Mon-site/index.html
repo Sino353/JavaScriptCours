@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Définition du type de document HTML5 -->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adaptation tailles d'écrans -->
+    <title>LoL Card Collection</title> 
+    
+    
+    <link rel="stylesheet" href="style.css">
+    <!-- Importation d'une police-->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- Titre principal -->
+            <h1>Collection de Cartes - League of Legends</h1>
+            
+            <!-- Description de l'objectif du site -->
+            <p class="description">
+                Bienvenue sur LoL Card Collection, votre bibliothèque en ligne dédiée aux cartes de champions de League of Legends !
+            </p>
+            
+            <!-- Bouton pour activer le mode sombre -->
+            <h3>
+                <button id="darkModeToggle">Mode Sombre</button>
+            </h3>
+
+            <!-- Inclusion du fichier JavaScript -->
+            <script src="script.js"></script>
+        </div>
+
+        <!-- Menu de navigation avec des liens vers d'autres pages -->
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li> 
+                <li><a href="collection.html">Collection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section principale contenant les cartes -->
+    <main class="card-section">
+        <div class="card-container">
+            <!-- Première carte : Ahri -->
+            <div class="card">
+                <img src="ahri.jpg" alt="Ahri"> <!-- Image de la carte -->
+                <h2>Ahri</h2> <!-- Nom du champion -->
+                <p>Ahri, la renarde à neuf queues, séduit ses ennemis et absorbe leur essence pour renforcer ses pouvoirs magiques.</p>
+            </div>
+
+            <!-- Deuxième carte : Ashe -->
+            <div class="card">
+                <img src="Ashe_0.jpg" alt="Ashe"> <!-- Image de la carte -->
+                <h2>Ashe</h2> <!-- Nom du champion -->
+                <p>Archer glaciale et reine des Freljord, Ashe tire des flèches enchantées pour geler ses ennemis à distance.</p>
+            </div>
+
+            <!-- Troisième carte : Garen -->
+            <div class="card">
+                <img src="garen.jpg" alt="Garen"> <!-- Image de la carte -->
+                <h2>Garen</h2> <!-- Nom du champion -->
+                <p>Garen, guerrier de Demacia, incarne la justice. Avec sa lame colossale, il tranche à travers les forces du mal.</p>
+            </div>
+
+            <!-- Vidéo intégrée montrant une cinématique -->
+            <video width="560" height="315" controls> <!-- Contrôles activés pour permettre la lecture, pause, etc. -->
+                <source src="A New Dawn  Cinematic - League of Legends.mp4" type="video/mp4"> <!-- Fichier vidéo MP4 -->
+                Your browser does not support the video tag. <!-- Message affiché si le navigateur ne prend pas en charge les vidéos -->
+            </video>
+        </div>
+        
+        <p class="explanation">Explorez notre collection de champions et découvrez leurs histoires et compétences.</p>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        2024 LoL Card Collection - Tous droits réservés 
+    </footer>
+</body>
+</html>
